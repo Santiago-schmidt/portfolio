@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santiago Schmidt ✍️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Santiago<span>.dev()</span></h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <button id="dark-mode-toggle" class="dark-mode-btn">🌙</button>
+    </header>
+
+    <!-- Sección Sobre Mí -->
+    <section id="sobre-mi" class="hero-section">
+        <div class="hero-texto">
+            <h2>Hola, soy Santiago 👋</h2>
+            <p>Soy estudiante avanzado de la Tecnicatura Universitaria en Programación de la UTN, orientado al
+                desarrollo de software y en búsqueda de mi primera oportunidad profesional en el área IT.</p>
+            <p>Durante mi formación trabajé principalmente con C++, C#, .NET, SQL Server y desarrollo web con HTML, CSS
+                y JavaScript. También tengo experiencia utilizando Git y GitHub para gestionar proyectos y trabajar de
+                forma colaborativa.</p>
+            <p>Actualmente me desempeño en el área de monitoreo tecnológico, una experiencia que me permitió desarrollar
+                responsabilidad, capacidad de análisis y resolución de problemas en entornos donde la atención y el
+                seguimiento son fundamentales.</p>
+            <div class="hero-botones">
+
+                <a href="#proyectos" class="btn-principal">
+                    Ver mis proyectos
+                </a>
+
+                <a href="cv/Santiago-Schmidt-CV.pdf" target="_blank" class="btn-cv">
+                    📄 Ver mi CV
+                </a>
+
+            </div>
+        </div>
+        <div class="hero-imagen">
+            <img src="/images/portfolio.jpeg" alt="Santiago trabajando en su escritorio">
+        </div>
+    </section>
+
+    <!-- Sección Habilidades -->
+    <section id="habilidades" class="habilidades-section">
+        <h2 class="section-title">Mis Habilidades</h2>
+        <!-- Lenguajes -->
+        <div class="habilidades-categoria">
+            <h3>Lenguajes</h3>
+            <div class="habilidades-grid">
+
+                <div class="habilidad-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                        alt="C++">
+                    <h4>C++</h4>
+                </div>
+
+                <div class="habilidad-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#">
+                    <h4>C#</h4>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Desarrollo web -->
+        <div class="habilidades-categoria">
+            <h3>Desarrollo Web</h3>
+            <div class="habilidades-grid">
+
+                <div class="habilidad-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+                    <h4>HTML5</h4>
+                </div>
+
+                <div class="habilidad-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+                    <h4>CSS3</h4>
+                </div>
+
+                <div class="habilidad-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                        alt="JavaScript">
+                    <h4>JavaScript</h4>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Bases de datos -->
+        <div class="habilidades-categoria">
+            <h3>Bases de Datos</h3>
+            <div class="habilidades-grid">
+
+                <div class="habilidad-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg"
+                        alt="SQL Server">
+                    <h4>SQL Server</h4>
+                </div>
+
+                <div class="habilidad-card">
+                    <div class="icono-texto">ADO</div>
+                    <h4>ADO.NET</h4>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Herramientas -->
+        <div class="habilidades-categoria">
+            <h3>Herramientas</h3>
+            <div class="habilidades-grid">
+
+                <div class="habilidad-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                    <h4>Git</h4>
+                </div>
+
+                <div class="habilidad-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                        alt="GitHub">
+                    <h4>GitHub</h4>
+                </div>
+
+                <div class="habilidad-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg"
+                        alt="Visual Studio">
+                    <h4>Visual Studio</h4>
+                </div>
+
+                <div class="habilidad-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+                        alt="Visual Studio Code">
+                    <h4>VS Code</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sección Proyectos -->
+    <section id="proyectos" class="proyectos-section">
+        <h2 class="section-title">Mis Proyectos</h2>
+
+        <div class="proyectos-grid">
+
+            <!-- Proyecto 1: C++ -->
+            <div class="proyecto-card">
+                <h3>Programación 2 - Sistema de Gestión en C++</h3>
+                <p>Sistema de gestión desarrollado en C++ como proyecto final de la materia Programación 2. Implementa
+                    programación orientada a objetos, manejo de archivos binarios, persistencia de datos y operaciones
+                    de alta, modificación y baja lógica.</p>
+                <p>El proyecto está organizado en distintas entidades y módulos, incluyendo usuarios, categorías,
+                    artículos, clientes, ventas y detalles de venta, junto con reportes para consultar la información
+                    almacenada.</p>
+                <div class="tags">
+                    <span class="tag">C++</span>
+                    <span class="tag">POO</span>
+                    <span class="tag">Archivos</span>
+                    <span class="tag">Git</span>
+                </div><a href="https://github.com/Santiago-schmidt/Sistema-de-gesti-n.git" target="_blank"
+                    class="btn-proyecto">Ver en GitHub</a>
+            </div>
+
+            <!-- Proyecto 2: WinForms -->
+            <div class="proyecto-card">
+                <h3>Programación 3 - Sistema de Gestión con WinForms</h3>
+                <p>Aplicación de escritorio desarrollada en C# y .NET utilizando Windows Forms, conectada a una base de
+                    datos SQL Server.</p>
+                <p>El proyecto implementa operaciones de alta, modificación y baja, consultas y filtros de información,
+                    validaciones y acceso a datos mediante una arquitectura separada en capas. También trabajé con Git y
+                    GitHub para el control de versiones y la colaboración con el equipo.</p>
+                <div class="tags">
+                    <span class="tag">C#</span>
+                    <span class="tag">.NET</span>
+                    <span class="tag">WinForms</span>
+                    <span class="tag">SQL Server</span>
+                    <span class="tag">ADO.NET</span>
+                    <span class="tag">Git</span>
+                </div><a href="https://github.com/Santiago-schmidt/tp-winform-equipo-b.git" target="_blank"
+                    class="btn-proyecto">Ver en GitHub</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto-section">
+        <h2 class="section-title">Contacto</h2>
+
+        <p class="contacto-texto">
+            ¿Te interesa conocer más sobre mi perfil o alguno de mis proyectos?
+            Podés encontrarme en los siguientes medios.
+        </p>
+
+        <div class="contacto-links">
+
+            <a href="mailto:santiago.-schmidt@hotmail.com" class="contacto-card">
+                <span class="contacto-icono">✉️</span>
+                <span>
+                    <strong>Email</strong>
+                    <small>santiago.-schmidt@hotmail.com</small>
+                </span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/santiago-schmidt-a795561b8" target="_blank" class="contacto-card">
+                <span class="contacto-icono">in</span>
+                <span>
+                    <strong>LinkedIn</strong>
+                    <small>Mi perfil profesional</small>
+                </span>
+            </a>
+
+            <a href="https://github.com/Santiago-schmidt" target="_blank" class="contacto-card">
+                <span class="contacto-icono">💻</span>
+                <span>
+                    <strong>GitHub</strong>
+                    <small>Mis proyectos</small>
+                </span>
+            </a>
+
+            <a href="cv/Santiago-Schmidt-CV.pdf" target="_blank" class="contacto-card">
+
+                <span class="contacto-icono">📄</span>
+
+                <span>
+                    <strong>Currículum</strong>
+                    <small>Ver mi CV</small>
+                </span>
+
+            </a>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Santiago Schmidt · Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
