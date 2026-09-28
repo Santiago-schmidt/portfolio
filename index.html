@@ -17,6 +17,7 @@
                 <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
                 <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#redes">Redes</a></li>
             </ul>
         </nav>
         <button id="dark-mode-toggle" class="dark-mode-btn">🌙</button>
@@ -196,9 +197,36 @@
         <h2 class="section-title">Contacto</h2>
 
         <p class="contacto-texto">
-            ¿Te interesa conocer más sobre mi perfil o alguno de mis proyectos?
-            Podés encontrarme en los siguientes medios.
+            ¿Querés ponerte en contacto conmigo? Completá el formulario o encontrame en los siguientes medios. 
+            ¡Estaré encantado de responderte!
         </p>
+
+        <form class="contacto-form">
+            <div class="form-grupo">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+            </div>
+
+            <div class="form-grupo">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="tu@email.com">
+            </div>
+
+            <div class="form-grupo">
+                <label for="asunto">Asunto</label>
+                <input type="text" id="asunto" name="asunto" placeholder="¿En qué puedo ayudarte?">
+            </div>
+
+            <div class="form-grupo">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="6" placeholder="Escribí tu mensaje..."></textarea>
+            </div>
+
+            <button type="submit" class="btn-formulario">
+                Enviar mensaje
+            </button>
+            <p id="mensaje-formulario" class="mensaje-formulario"></p>
+        </form>
 
         <div class="contacto-links">
 
@@ -210,22 +238,6 @@
                 </span>
             </a>
 
-            <a href="https://www.linkedin.com/in/santiago-schmidt-a795561b8" target="_blank" class="contacto-card">
-                <span class="contacto-icono">in</span>
-                <span>
-                    <strong>LinkedIn</strong>
-                    <small>Mi perfil profesional</small>
-                </span>
-            </a>
-
-            <a href="https://github.com/Santiago-schmidt" target="_blank" class="contacto-card">
-                <span class="contacto-icono">💻</span>
-                <span>
-                    <strong>GitHub</strong>
-                    <small>Mis proyectos</small>
-                </span>
-            </a>
-
             <a href="cv/Santiago-Schmidt-CV.pdf" target="_blank" class="contacto-card">
 
                 <span class="contacto-icono">📄</span>
@@ -234,11 +246,37 @@
                     <strong>Currículum</strong>
                     <small>Ver mi CV</small>
                 </span>
-
             </a>
-
         </div>
     </section>
+
+    <section id="redes" class="redes-section">
+    <h2 class="section-title">Redes</h2>
+
+    <div class="contacto-links">
+        <a href="https://www.linkedin.com/in/santiago-schmidt-a795561b8"
+            target="_blank" class="contacto-card">
+
+            <span class="contacto-icono">in</span>
+            <span>
+                <strong>LinkedIn</strong>
+                <small>Mi perfil profesional</small>
+            </span>
+        </a>
+
+        <a href="https://github.com/Santiago-schmidt"
+            target="_blank" class="contacto-card">
+
+            <span class="contacto-icono">💻</span>
+
+            <span>
+                <strong>GitHub</strong>
+                <small>Mis proyectos</small>
+            </span>
+        </a>
+    </div>
+
+</section>
 
     <footer>
         <p>© 2026 Santiago Schmidt · Portfolio</p>

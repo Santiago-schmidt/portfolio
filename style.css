@@ -376,6 +376,64 @@ ul {
     line-height: 1.6;
 }
 
+.contacto-form {
+    max-width: 600px;
+    margin: 0 auto 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-grupo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: left;
+}
+
+.form-grupo label {
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.form-grupo input,
+.form-grupo textarea {
+    padding: 12px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    border-radius: 6px;
+    background-color: var(--header-bg);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.form-grupo textarea {
+    resize: vertical;
+}
+
+.btn-formulario {
+    padding: 12px 20px;
+    background-color: var(--accent-color);
+    border: 2px solid var(--accent-color);
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-formulario:hover {
+    background-color: transparent;
+    color: var(--accent-color);
+}
+
+.mensaje-formulario {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
 .contacto-links {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -425,6 +483,13 @@ ul {
     opacity: 0.7;
 }
 
+/* ==============================
+   REDES
+   ============================== */
+.redes-section {
+    padding: 40px 100px 60px;
+    text-align: center;
+}
 
 /* ==============================
    FOOTER
@@ -478,5 +543,9 @@ footer {
     .habilidades-section,
     .contacto-section {
         padding: 60px 20px;
+    }
+
+    .redes-section {
+        padding: 30px 20px 50px;
     }
 }
